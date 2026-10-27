@@ -40,7 +40,7 @@ Some of these repos are tools I needed and couldn't find. Some are a problem I k
 
 ## How it's run
 
-This is one person, mostly. I work on contract about half the time; the other half goes into turning the tools I use every day into ones other people can pick up. Much of the code is written with AI coding agents and the commit history says so; I read and test what ships.
+This is one person, mostly, turning the tools I use every day into ones other people can pick up. Much of the code is written with AI coding agents and the commit history says so; I read and test what ships.
 
 Issues are welcome on any public repo. For anything bigger than a small fix, open an issue before a pull request so we agree on the approach first. The details are in [CONTRIBUTING.md](https://github.com/Exploded-views/.github/blob/main/CONTRIBUTING.md), and what to expect for help is in [SUPPORT.md](https://github.com/Exploded-views/.github/blob/main/SUPPORT.md). Security issues go through GitHub's private vulnerability reporting on the affected repo, never a public issue; see [SECURITY.md](https://github.com/Exploded-views/.github/blob/main/SECURITY.md).
 
