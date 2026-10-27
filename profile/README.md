@@ -28,9 +28,19 @@ Non-personal work by [gitgat](https://github.com/gitgat): tools, side projects, 
 
 Some of these repos are tools I needed and couldn't find. Some are a problem I kept pointing at until it was worth writing down properly. Either way the goal is the same, which is to leave the parts visible. READMEs here try to explain the mechanism and the reasoning, not just the install step, and there's a diagram wherever a diagram does the job better than a paragraph. If you can't see why a thing is built the way it is, that's a bug worth an issue.
 
+## Projects
+
+| Project | What it is |
+|---|---|
+| [crewkit](https://github.com/Exploded-views/crewkit) | Tooling for running a crew of AI coding agents: an installer for pinned, checksum-verified tools, plus Claude Code plugins for agent practice and memory notices. |
+| [bitc](https://github.com/Exploded-views/bitc) | Runs heavy commands (builds, test suites) on cloud providers under a spend cap, with local slot gating as the fallback. Built for machines that several agents share. |
+| [claude-utils](https://github.com/Exploded-views/claude-utils) | A fork of [MarimerLLC/claude-utils](https://github.com/MarimerLLC/claude-utils). Its main addition is `claude-memsync`, which syncs Claude Code memory folders to encrypted git repos across machines. |
+| yo-human | Lets agents notify, ask and escalate to a person over ntfy, Bark and PagerDuty. Coming soon. |
+| [Heeler](https://github.com/Exploded-views/Heeler) | A contribution fork of [Heeler](https://heeler.bybee.dev), carrying changes yo-human needs that are offered upstream. |
+
 ## How it's run
 
-This is one person, mostly, working in the margins of a day job. Much of the code is written with AI coding agents and the commit history says so; I read and test what ships.
+This is one person, mostly, turning the tools I use every day into ones other people can pick up. Much of the code is written with AI coding agents and the commit history says so; I read and test what ships.
 
 Issues are welcome on any public repo. For anything bigger than a small fix, open an issue before a pull request so we agree on the approach first. The details are in [CONTRIBUTING.md](https://github.com/Exploded-views/.github/blob/main/CONTRIBUTING.md), and what to expect for help is in [SUPPORT.md](https://github.com/Exploded-views/.github/blob/main/SUPPORT.md). Security issues go through GitHub's private vulnerability reporting on the affected repo, never a public issue; see [SECURITY.md](https://github.com/Exploded-views/.github/blob/main/SECURITY.md).
 
